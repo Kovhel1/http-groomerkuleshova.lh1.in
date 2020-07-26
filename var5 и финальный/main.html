@@ -1,0 +1,85 @@
+<!DOCTYPE  html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="main.css">
+    <script src="jquery-2.2.2.min.js"></script>
+</head>
+
+
+<body>
+    <img src="1.png"  heigh="50%" width="100%">
+    <p id="bodylistname">Услуги сертифицированного грумера !</p>
+    <table align ="center" >
+        <tr>
+            <td>    
+                <ul id="bodylisttext">
+                    <li>Уход за когтями                                 </li>
+                    <li>SPA-процедуры для собак и кошек                 </li>
+                    <li>Гигиенический уход за ушами                     </li>
+                    <li>Индивидуальная и породная стрижка (груминг)     </li>
+                    <li>Тримминг                                        </li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+    <img src="2.png"  heigh="50%" width="100%" >
+ </body>
+ 
+ 
+ <span>
+    <table class="number">
+        <tr>
+            <td width=5% ></td>
+            <td width=30% id="note"><p>Записывайтесь <br> в WatsApp или Viber<br>по номеру<br></p></td>
+            <td id="phonenumber"><p  >+7 (916) 574-56-99 </p></td>
+            <td width=5% ></td>
+        </tr>
+    </table>
+ </span>
+
+
+ <span>
+    <table class="instagram"  >
+         <tr>
+            <td  colspan=3  align="center"><span id="follow"> <a href="https://www.instagram.com/groomer_kuleshova/">Следите за нами в  </a></span><a href="https://www.instagram.com/groomer_kuleshova/"><img src="instagram.jpg" heigh="50px" width="50px" class="instagram"> </a><span id="instagram"><a href="https://www.instagram.com/groomer_kuleshova/">  Instagram</a></span></td>
+        </tr>
+        <tr>
+            <td><img class="gallery" src="dog1.jpg"> </td>
+            <td><img class="gallery" src="dog2.jpg"> </td>
+            <td><img class="gallery" src="dog3.jpg"> </td>
+        </tr>
+        <tr>
+            <td><img class="gallery" src="dog4.jpg"> </td>
+            <td><img class="gallery" src="dog5.jpg"> </td>
+            <td><img class="gallery" src="dog6.jpg"> </td>
+        </tr>
+        <tr class="hidegallery">
+            <td><img class="gallery" src="dog7.jpg"></td>
+            <td><img class="gallery" src="dog8.jpg"></td>
+            <td><img class="gallery" src="dog9.jpg"></td>
+        </tr>
+        
+        <tr class="hidegallery">
+            <td><img class="gallery" src="dog10.jpg"> </td>
+            <td><img class="gallery" src="dog11.jpg"> </td>
+            <td><img class="gallery" src="dog12.jpg"> </td>
+        </tr>
+        <tr >
+            <td colspan=3 align="center"><button class="showbutton">Показать ещё</button></td>
+        </tr>
+    </table>  
+    
+    
+    
+    <script>
+        $(document).ready(function(){
+            $(".showbutton").click(function() {
+                $(".hidegallery").slideToggle("slow");
+				});
+			});
+    </script>
+</span>    
+    
+    
+</html>

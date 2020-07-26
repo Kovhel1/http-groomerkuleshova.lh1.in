@@ -1,0 +1,24 @@
+@font-face {
+font-family: 'Ms';
+src: url(fonts/Good_time.otf);
+}
+
+
+#main {
+    width: 100%;
+    font-size: x-large;
+}
+
+#text {
+font-family: "Ms"; 
+font-size: x-large;
+margin:  5%  5%  5%  5%;
+
+}
+
+
+.leftimg {
+    float:left; /* Выравнивание по левому краю */
+    margin-right: 5%;
+    margin-left: 10%;
+   }

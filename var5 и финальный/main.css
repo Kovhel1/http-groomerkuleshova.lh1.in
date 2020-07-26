@@ -1,0 +1,157 @@
+@font-face {
+    
+    font-family:     calibri;
+    src:             url(calibri.ttf);
+
+}
+
+
+@font-face {
+    
+    font-family:    GreatVibes;
+    src:            url(GreatVibes.ttf);
+    
+}
+    
+    
+#bodylistname {
+    
+    font-family:    calibri; 
+    font-size:      40px;
+    font-weight:    bold;
+    margin-bottom:  40px;
+    text-align:     center;
+    
+} 
+
+
+#bodylisttext {
+
+    font-family:    calibri; 
+    font-size:      30px;
+    
+}
+
+
+li {
+    
+    margin-bottom: 20px;
+    
+}
+
+
+table.number{
+    
+    background-color: rgb(245, 245, 245);
+    width:  100%;
+}
+
+
+#note{
+
+    font-family: calibri; 
+    font-size:   35px;
+    color: rgb(91, 91, 87);
+
+}
+
+
+#phonenumber{
+
+    font-family: calibri; 
+    font-size:   70px;
+    color: rgb(91, 91, 87);
+    text-align: right;
+
+}
+
+
+a:link {
+    
+    text-decoration: none;
+    color: rgb(0,0,0);
+    
+}
+
+
+a:visited{
+    
+    color: rgb(0,0,0);
+}
+
+
+a:hover{
+    
+    color: rgb(139, 0, 139);
+}
+
+
+#follow{
+
+    font-family:    calibri; 
+    font-size:      45px;
+    font-weight:    500;
+}
+
+
+#instagram{
+
+    font-family:    GreatVibes, calibri;
+    font-size:      60px;
+    font-weight:    500;
+
+}
+
+
+img.instagram{
+    
+    margin: 0 15px 0 15px;
+}
+
+
+table.instagram{
+    
+    border-collapse: separate;
+    border-spacing: 90px 90px;
+    margin:         auto;
+
+}
+
+
+img.gallery{
+    heigh: 300px;
+    width: 300px;
+    
+}
+
+
+tr.hidegallery{
+    
+    display: none;
+    
+}
+
+
+button.showbutton{
+    
+  display: inline-block;
+  padding: 20px 60px;
+  font-family: calibri;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #EA6346;
+  border: none;
+  border-radius: 15px;
+
+  
+}
+
+
+.showbutton:hover {
+    
+    background-color: #EC4724
+    
+}
